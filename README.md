@@ -1,0 +1,26 @@
+# Nuxt Dashboard
+
+> Nuxt.js + TailwindCSS
+
+## Build Setup
+
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+### Demo: [nuxt-dashboard.vercel.app](https://nuxt-dashboard.vercel.app)
+
+"build": "cross-env NODE_ENV=production nuxt-ts build --modern=server",

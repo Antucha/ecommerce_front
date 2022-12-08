@@ -1,0 +1,166 @@
+.primary-background {
+    background: $primary-color;
+}
+
+.primary-color-text {
+    color: $primary-color  !important;
+}
+
+
+.white-text-color {
+    color: white;
+}
+
+.gold-color {
+    color: #D4A413;
+}
+
+.all-width-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center-horizontal {
+    display: flex;
+    align-items: center;
+}
+
+.margin-0 {
+    margin: 0 0 5px 0;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.pink-primary-background {
+    background: $pink-color-primary;
+}
+
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+
+// FONT
+.font-size-smaller {
+    font-size: smaller;
+}
+
+.font-size-medium {
+    font-size: medium;
+}
+
+.font-size-initial {
+    font-size: initial;
+}
+
+
+.black-text-color {
+    color: black !important;
+}
+
+.gray-text-color {
+    color: gray !important;
+}
+
+.green-black-text-color {
+    color: #0a7f24 !important;
+}
+
+.bg-red-light {
+    background: #f41b2258 !important;
+}
+
+.bg-green-light {
+    background: #a3ff5391 !important;
+}
+
+.bg-green-black {
+    background: #0F531E !important;
+}
+
+.color-red {
+    color: red !important;
+}
+
+.color-green {
+    color: rgb(30, 241, 30) !important;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+// BUTTONS
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+
+
+.right-edit-card {
+    width: 700px;
+}
